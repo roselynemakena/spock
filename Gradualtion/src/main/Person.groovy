@@ -9,6 +9,15 @@ class Teacher{
         "$firstName $lastName"
     }
 }
+@ToString
+class Maths{
+    def  num1,num2
 
-Teacher a = new Teacher(firstName: "Roselyne", lastName: "Makena")
-println a.lastName
+    def addNumbers(num1, num2){
+        num1 + num2
+    }
+
+    def subtractNumbers(num1, num2){
+        num1 - num2
+    }
+}

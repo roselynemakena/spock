@@ -22,8 +22,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file leaf-file-name="Start.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="803">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -43,8 +43,8 @@
       <file leaf-file-name="Person.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -244,7 +244,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6096818467000" />
+        <entry key="$PROJECT_DIR$" value="6096819463000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1020132206" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2083459160" />
@@ -444,10 +444,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -514,6 +513,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -536,17 +536,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonSpec.Given a class Teacher (1)">
+  <component name="RunManager" selected="JUnit.PersonSpec.Test the addition of numbers in addNumbers">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Person" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="Gradualtion_main" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/main/Person.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/main" />
-      <setting name="debug" value="false" />
+    <configuration name="PersonSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gradualtion_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="PersonSpec.Given a class Teacher (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gradualtion_test" />
@@ -599,13 +608,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Person.Given a class Teacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonSpec.Test the addition of numbers in addNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gradualtion_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Person" />
-      <option name="METHOD_NAME" value="Given a class Teacher() first name should be Roselyne" />
+      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
+      <option name="METHOD_NAME" value="Test the addition of numbers in addNumbers()" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -655,19 +664,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Groovy.Person" />
-      <item itemvalue="JUnit.Person.Given a class Teacher" />
       <item itemvalue="JUnit.PersonSpec.Given a class Teacher" />
       <item itemvalue="JUnit.PersonSpec.Obtaining a square of a given number" />
       <item itemvalue="JUnit.PersonSpec.Given a class Teacher (1)" />
+      <item itemvalue="JUnit.PersonSpec.Test the addition of numbers in addNumbers" />
+      <item itemvalue="JUnit.PersonSpec" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonSpec.Test the addition of numbers in addNumbers" />
+        <item itemvalue="JUnit.PersonSpec" />
         <item itemvalue="JUnit.PersonSpec.Given a class Teacher (1)" />
         <item itemvalue="JUnit.PersonSpec.Obtaining a square of a given number" />
         <item itemvalue="JUnit.PersonSpec.Given a class Teacher" />
-        <item itemvalue="Groovy.Person" />
-        <item itemvalue="JUnit.Person.Given a class Teacher" />
       </list>
     </recent_temporary>
   </component>
@@ -693,40 +702,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonSpec_Given_a_class_Teacher - 2018.04.21 at 08h 57m 15s.xml">
-      <configuration name="PersonSpec.Given a class Teacher" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 09h 32m 45s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Given_a_class_Teacher - 2018.04.21 at 08h 58m 52s.xml">
-      <configuration name="PersonSpec.Given a class Teacher" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 09h 32m 54s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Given_a_class_Teacher - 2018.04.21 at 08h 59m 15s.xml">
-      <configuration name="PersonSpec.Given a class Teacher" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 47m 48s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 06m 37s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 48m 03s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 07m 12s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
+    <history-entry file="PersonSpec - 2018.04.21 at 10h 55m 26s.xml">
+      <configuration name="PersonSpec" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 07m 21s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 07m 33s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 07m 39s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonSpec_Obtaining_a_square_of_a_given_number - 2018.04.21 at 09h 07m 51s.xml">
-      <configuration name="PersonSpec.Obtaining a square of a given number" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonSpec_Given_a_class_Teacher_(1) - 2018.04.21 at 09h 11m 47s.xml">
+    <history-entry file="PersonSpec_Given_a_class_Teacher_(1) - 2018.04.21 at 10h 55m 46s.xml">
       <configuration name="PersonSpec.Given a class Teacher (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonSpec - 2018.04.21 at 10h 55m 54s.xml">
+      <configuration name="PersonSpec" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 04s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 23s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 43s.xml">
+      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="sbt" />
@@ -740,11 +748,11 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32900944" />
+      <window_info anchor="bottom" id="Messages" weight="0.32887974" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28674203" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -773,24 +781,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/People.groovy">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="803">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

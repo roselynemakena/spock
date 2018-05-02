@@ -14,7 +14,6 @@ class PersonSpec extends Specification{
         then: "The result is 15"
             assert sum == 15
 
-
     }
 @Unroll
     def "Given a class Teacher() first name should be Match the given name"(){
@@ -22,7 +21,7 @@ class PersonSpec extends Specification{
             Teacher teacherA = new Teacher(firstName: fname, lastName: lname)
 
         expect: "The first name to be the correct name provided by the user"
-            teacherA.firstName != fname
+            teacherA.firstName == fname
 
         where: "The follwing results to be true"
 
@@ -30,7 +29,6 @@ class PersonSpec extends Specification{
         "Roselyne" | "Makena"
         "Rose" | "Mak"
         "Michael" | "Khameba"
-
 
     }
 
@@ -49,6 +47,27 @@ class PersonSpec extends Specification{
         10| 100
 
     }
+@Unroll
+    def "Test the addition of numbers in addNumbers()"(){
+        given: "A new Maths Object is created"
+            def math = new Maths(num1:num1, num2:num2)
+
+        expect: "The sums to be correct when addNumbers() is called"
+            sum == math.addNumbers(num1,num2)
+
+        where:
+
+        num1 | num2 | sum
+        2     |10    | 12
+        3    | 3     |6
+    }
 
 
+    def "Reading an xml file"(){
+        given: "That an xml file is present"
+    }
+
+    def ""(){
+
+    }
 }

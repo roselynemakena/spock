@@ -1,5 +1,8 @@
+import javafx.application.Application
 import spock.lang.Specification
 import spock.lang.Unroll
+
+import javax.xml.ws.Service
 
 
 class PersonSpec extends Specification{
@@ -45,7 +48,6 @@ class PersonSpec extends Specification{
         5 | 25
         9 | 81
         10| 100
-
     }
 @Unroll
     def "Test the addition of numbers in addNumbers()"(){
@@ -63,11 +65,47 @@ class PersonSpec extends Specification{
     }
 
 
-    def "Reading an xml file"(){
-        given: "That an xml file is present"
+    def "Testing conditions: "(){
+        given: "A new stack is initiated"
+        def stack = new Stack()
+        def map = new HashMap()
+
+        when: "A null value is pushed into the stack"
+        stack.push(null)
+        map.put("one", null)
+
+        then: "The stack should not be empty, size should be 1"
+        !stack.empty()
+        stack.size() == 1
+        !map.isEmpty()
     }
 
-    def ""(){
+    def "Mocking"(){
+        given: "A subscriber is registered"
 
+        def service = Mock(Service)
+        def app = Application(service)
+
+
+        when: "The app runs"
+        app.run()
+
+        then: ""
+        with(service){
+            1 * start()
+            1 * stop()
+            1 * doWork()
+
+        }
+    }
+
+    def "Using simple methods"() {
+        expect: "The maximum no to be returned: "
+            res == Math.max(x,y)
+
+        where: "Numbers are provided"
+
+        x | y | res
+        3 | 5 | 5
     }
 }

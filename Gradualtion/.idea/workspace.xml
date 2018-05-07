@@ -18,7 +18,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
@@ -31,10 +31,10 @@
       <file leaf-file-name="Start.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="924">
+              <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file leaf-file-name="Person.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -453,7 +453,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -508,8 +508,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,51 +536,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonSpec.Test the addition of numbers in addNumbers">
+  <component name="RunManager" selected="JUnit.PersonSpec.Using simple methods">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PersonSpec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonSpec.Mocking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Gradualtion_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonSpec" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonSpec.Given a class Teacher (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gradualtion_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
-      <option name="METHOD_NAME" value="Given a class Teacher() first name should be Match the given name" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonSpec.Given a class Teacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gradualtion_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
-      <option name="METHOD_NAME" value="Given a class Teacher() first name should be Roselyne" />
+      <option name="METHOD_NAME" value="Mocking" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -615,6 +581,40 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonSpec" />
       <option name="METHOD_NAME" value="Test the addition of numbers in addNumbers()" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonSpec.Testing conditions: " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gradualtion_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
+      <option name="METHOD_NAME" value="Testing conditions: " />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonSpec.Using simple methods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Gradualtion_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonSpec" />
+      <option name="METHOD_NAME" value="Using simple methods" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -664,19 +664,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonSpec.Given a class Teacher" />
       <item itemvalue="JUnit.PersonSpec.Obtaining a square of a given number" />
-      <item itemvalue="JUnit.PersonSpec.Given a class Teacher (1)" />
       <item itemvalue="JUnit.PersonSpec.Test the addition of numbers in addNumbers" />
-      <item itemvalue="JUnit.PersonSpec" />
+      <item itemvalue="JUnit.PersonSpec.Testing conditions: " />
+      <item itemvalue="JUnit.PersonSpec.Mocking" />
+      <item itemvalue="JUnit.PersonSpec.Using simple methods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonSpec.Test the addition of numbers in addNumbers" />
-        <item itemvalue="JUnit.PersonSpec" />
-        <item itemvalue="JUnit.PersonSpec.Given a class Teacher (1)" />
+        <item itemvalue="JUnit.PersonSpec.Using simple methods" />
+        <item itemvalue="JUnit.PersonSpec.Mocking" />
+        <item itemvalue="JUnit.PersonSpec.Testing conditions: " />
         <item itemvalue="JUnit.PersonSpec.Obtaining a square of a given number" />
-        <item itemvalue="JUnit.PersonSpec.Given a class Teacher" />
+        <item itemvalue="JUnit.PersonSpec.Test the addition of numbers in addNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -702,71 +702,72 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 09h 32m 45s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 27m 45s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 09h 32m 54s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 28m 26s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 47m 48s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 28m 42s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 48m 03s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 28m 56s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec - 2018.04.21 at 10h 55m 26s.xml">
-      <configuration name="PersonSpec" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 47m 01s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Given_a_class_Teacher_(1) - 2018.04.21 at 10h 55m 46s.xml">
-      <configuration name="PersonSpec.Given a class Teacher (1)" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 47m 18s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec - 2018.04.21 at 10h 55m 54s.xml">
-      <configuration name="PersonSpec" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 47m 40s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 04s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 47m 59s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 23s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Testing_conditions__ - 2018.05.02 at 10h 48m 12s.xml">
+      <configuration name="PersonSpec.Testing conditions: " configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonSpec_Test_the_addition_of_numbers_in_addNumbers - 2018.04.21 at 10h 56m 43s.xml">
-      <configuration name="PersonSpec.Test the addition of numbers in addNumbers" configurationId="JUnit" />
+    <history-entry file="PersonSpec_Mocking - 2018.05.02 at 11h 59m 18s.xml">
+      <configuration name="PersonSpec.Mocking" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="sbt" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.32900944" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="sbt" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2987013" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22257721" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32887974" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28674203" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info id="Learn" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32858416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32900944" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -778,13 +779,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/People.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-end-line="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,12 +810,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
+        <state relative-caret-position="1035">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Person.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/Start.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
